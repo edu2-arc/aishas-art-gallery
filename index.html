@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atelier Atlas | Nights & Shores Gallery</title>
+  <meta name="description" content="An immersive art gallery centered on sunsets, beaches, cities at night, and islands at night." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="backdrop backdrop-one"></div>
+  <div class="backdrop backdrop-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Atelier Atlas home">
+      <span class="brand-mark">AA</span>
+      <span>
+        <strong>Atelier Atlas</strong>
+        <small>Nights & Shores Art Gallery</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="#paintings">Paintings</a>
+      <a href="#techniques">Themes</a>
+      <a href="#visit">Visit</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Sunsets, shores, and city lights</p>
+        <h1>An art gallery of sunsets, beaches, night cities, and moonlit islands.</h1>
+        <p class="lede">
+          Step into a curated visual journey where each room moves between glowing sunsets, calm beaches, luminous city nights, and islands under the stars.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#paintings">Explore paintings</a>
+          <a class="button button-secondary" href="#techniques">View themes</a>
+        </div>
+        <dl class="hero-stats" aria-label="Gallery highlights">
+          <div>
+            <dt>12</dt>
+            <dd>featured paintings</dd>
+          </div>
+          <div>
+            <dt>4</dt>
+            <dd>core themes</dd>
+          </div>
+          <div>
+            <dt>1</dt>
+            <dd>immersive experience</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-panel" aria-label="Featured artwork preview">
+        <div class="hero-art hero-art-one"></div>
+        <div class="hero-art hero-art-two"></div>
+        <div class="hero-note">
+          <span class="note-label">Current exhibition</span>
+          <strong>Nights & Shores</strong>
+          <p>Sunset glow, beach calm, city light, and island moonlight.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="paintings">
+      <div class="section-heading">
+        <p class="eyebrow">Featured paintings</p>
+        <h2>Original works across four signature scenes.</h2>
+      </div>
+      <div class="gallery-grid" id="paintings-grid"></div>
+    </section>
+
+    <section class="section techniques-section" id="techniques">
+      <div class="section-heading">
+        <p class="eyebrow">Gallery themes</p>
+        <h2>Sunsets, beaches, cities at night, and islands at night.</h2>
+      </div>
+      <div class="techniques-grid" id="techniques-grid"></div>
+    </section>
+
+    <section class="section visit-section" id="visit">
+      <div class="visit-card">
+        <div>
+          <p class="eyebrow">Plan your visit</p>
+          <h2>Wander from golden skies to moonlit horizons.</h2>
+        </div>
+        <p>
+          Open daily with rotating rooms dedicated to shoreline sunsets, coastal beaches, neon city nights, and island evenings. The layout is responsive and works well on phones, tablets, and desktops.
+        </p>
+        <a class="button button-primary" href="mailto:hello@atelieratlas.gallery">Book a private tour</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Atelier Atlas Gallery</p>
+    <p>Nights & shores painting collection</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
